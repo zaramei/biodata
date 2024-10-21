@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #abadaf;
+    padding: 8px; /* Tambahkan padding untuk memberi ruang */
+     
+}
+
+.container {
+    background-color: white; /* Warna latar belakang putih untuk konten */
+    border-radius: 15px; /* Membuat sudut membulat */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek terbenam */
+    padding: 30px; /* Ruang di dalam kontainer */
+    margin-top: 20px; /* Jarak dari atas */
+    max-width: 600px; /* Maksimal lebar kotak */
+    height: auto; /* Tinggi otomatis sesuai konten */
+    min-height: 600px; /* Minimum tinggi untuk efek vertikal memanjang */
+    display: flex;
+    flex-direction: column; /* Mengatur konten secara vertikal */
+    justify-content: space-between; /* Memberi ruang antara konten */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    max-width: 125px;
+    border-radius: 50%;
+    border: 2px solid rgb(167, 167, 167);
+}
+
+h2 {
+    color: rgb(41, 41, 41);
+    background-color: rgb(239, 237, 237);
+}
+
+.list-group-item {
+    background-color: #cac8c8;
+    border: 1px solid #a3a3a3;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: white;
+    color: black;
+}
